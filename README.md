@@ -21,6 +21,6 @@ The following setup instructions are intended for Windows.
 5. Run the Container
     - In Docker Desktop go to the Containers tab
     - Start the `fenicsx-dev` container
-    - Open the following URL in your browser: `http://127.0.0.1:8888/lab`
+    - Go to the Logs tab and paste the URL in your Browser: ` http://127.0.0.1:8888/lab?token=...`
 
 JupyterLab should now open, and the Python scripts and notebooks can be executed inside the FEniCSx development environment.
