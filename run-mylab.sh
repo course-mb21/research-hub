@@ -1,1 +1,1 @@
-docker create -it -p 8888:8888 -v "$PWD":/root/shared --name fenicsx-dev my-dolfinx-lab
+docker create -it -p 8888:8888 -v "$HOME":/root/shared --name fenicsx-dev my-dolfinx-lab
