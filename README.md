@@ -10,6 +10,7 @@ The following setup instructions are intended for Windows.
 
 1. Install Ubuntu
     - Open Powershell and run: `wsl --install -d Ubuntu-24.04 --name MB-21`
+    - Exit and start WSL via: `wsl -d MB-21 --cd ~` and `exit`
 2. Clone this repository
     - `git clone https://github.com/course-mb21/research-hub.git`
 3. Install Docker Desktop
