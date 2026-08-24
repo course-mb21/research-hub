@@ -15,11 +15,11 @@ The following setup instructions are intended for Windows.
 3. Install Docker Desktop
     - Go to Settings -> Resources -> WSL integration -> check MB-21
 4. Create the Container
-    - Navigate to the `my-dolfinx-lab` folder and run: `docker build -t fenicsx-dev .`
+    - Navigate to the `my-dolfinx-lab` folder and run: `docker build -t my-dolfinx-lab .`
     - Create the container: `sh run-mylab.sh`
 5. Run the Container
     - In Docker Desktop go to the Containers tab
-    - Start the `my-dolfinx-lab` container
+    - Start the `fenicsx-dev` container
     - Open the following URL in your browser: `http://127.0.0.1:8888/lab`
 
 JupyterLab should now open, and the Python scripts and notebooks can be executed inside the FEniCSx development environment.
