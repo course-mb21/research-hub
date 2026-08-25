@@ -1,6 +1,6 @@
-sympy
-meshio
-imageio
-ipympl
-viskex
-ccx2paraview
+sympy==1.14.0
+meshio==5.3.5
+imageio==2.37.4
+ipympl==0.10.0
+viskex==0.2.2
+ccx2paraview==3.2.0
