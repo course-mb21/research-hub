@@ -1,4 +1,4 @@
-FROM dolfinx/lab:v0.10.0
+FROM dolfinx/lab:v0.11.0
 
 USER root
 
